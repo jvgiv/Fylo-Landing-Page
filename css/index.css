@@ -8,13 +8,13 @@ h2 {
   font-size: 2rem;
   font-family: 'Raleway';
   font-weight: 400;
-  color: #666;
+  color: hsl(0, 0%, 100%);
 }
 p {
   font-size: 1.6rem;
   font-family: 'Open Sans';
   font-weight: 400;
-  color: #666;
+  color: hsl(0, 0%, 100%);
 }
 * {
   box-sizing: inherit;
@@ -24,9 +24,9 @@ html {
   box-sizing: border-box;
   background: hsl(217, 28%, 15%);
 }
-.container-body {
+.container-intro {
   width: 80%;
-  border: 1px solid white;
+  height: 100vh;
   margin: 0 auto;
 }
 .nav {
@@ -53,13 +53,11 @@ html {
   margin-right: 0;
 }
 .header {
-  border: 1px solid white;
   text-align: center;
 }
 .header__container {
   margin: 0 auto;
   width: 50%;
-  border: 1px solid white;
   line-height: 1.6;
 }
 .header__img {
@@ -82,7 +80,27 @@ html {
   font-weight: 700;
 }
 .header__button:hover {
-  color: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+  color: hsl(176, 68%, 64%);
   cursor: pointer;
   background: hsl(0, 0%, 100%);
+}
+.top-section {
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.top-section-child {
+  border: 1px solid white;
+  width: 35%;
+  align-self: stretch;
+}
+.top-section-img {
+  margin-top: 2rem;
+}
+.top-section-p {
+  font-color: hsl(0, 0%, 100%);
 }
