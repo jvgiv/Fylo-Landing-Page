@@ -85,7 +85,6 @@ html {
   background: hsl(0, 0%, 100%);
 }
 .top-section {
-  border: 1px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,7 +93,6 @@ html {
   flex-wrap: wrap;
 }
 .top-section-child {
-  border: 1px solid white;
   width: 35%;
   align-self: stretch;
 }
@@ -103,4 +101,24 @@ html {
 }
 .top-section-p {
   font-color: hsl(0, 0%, 100%);
+}
+.mid_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid white;
+}
+.mid_section_child {
+  border: 1px solid white;
+  width: 45%;
+}
+.mid_section_child_button {
+  background: hsl(217, 28%, 15%);
+  color: hsl(176, 68%, 64%);
+  cursor: pointer;
+  border: none;
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+  font-size: 2.4rem;
+  padding-top: 1rem;
 }
