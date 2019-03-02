@@ -93,11 +93,14 @@ html {
   flex-wrap: wrap;
 }
 .top-section-child {
-  width: 35%;
+  text-align: center;
   align-self: stretch;
+  padding: 5rem;
+  width: 35%;
 }
 .top-section-img {
   margin-top: 2rem;
+  height: 80px;
 }
 .top-section-p {
   font-color: hsl(0, 0%, 100%);
@@ -107,11 +110,10 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  border: 1px solid white;
+  flex-wrap: wrap;
 }
 .mid_section_child {
-  border: 1px solid white;
-  width: 45%;
+  width: 40%;
 }
 .mid_section_child_title {
   font-size: 3.8rem;
